@@ -5,6 +5,7 @@ import requests
 
 
 def tran(word):
+    """参数一个字符串单词 return字符串翻译结果"""
     url = "http://dict.cn/" + word
     res = requests.get(url)
     soup = BeautifulSoup(res.text, "html.parser")
