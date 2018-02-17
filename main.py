@@ -1,5 +1,6 @@
 """就是简单地抓取该翻译网站的信息
-2018/1/11 路小鹿"""
+2018/1/11 路小鹿
+2018/2/17 添加了这一行的注释，测试一下git的记录功能"""
 from bs4 import BeautifulSoup
 import requests
 
